@@ -1,4 +1,4 @@
-name: provider-quest-sql-publisher-2
+name: provider-quest-sql-publisher
 
 on: [push]
 
