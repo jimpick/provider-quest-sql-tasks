@@ -41,3 +41,6 @@ jobs:
 
       - name: Push Docker image
         run: docker image push ${{ env.REGISTRY}}/${{ env.IMAGE_NAME }}
+
+      - name: Push Docker image (latest)
+        run: docker image push ${{ env.REGISTRY}}/${{ env.IMAGE_NAME }}:latest
