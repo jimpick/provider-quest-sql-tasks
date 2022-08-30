@@ -1,3 +1,3 @@
 #! /bin/bash
 
-echo FIXME 5
+echo FIXME 6
