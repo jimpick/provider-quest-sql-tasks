@@ -1,4 +1,4 @@
-name: provider-quest-sql-publisher
+name: provider-quest-sql-publisher-2
 
 on: [push]
 
@@ -41,6 +41,3 @@ jobs:
 
       - name: Push Docker image
         run: docker image push ${{ env.REGISTRY}}/${{ env.IMAGE_NAME }}
-
-      - name: Push Docker image (latest)
-        run: docker image push ${{ env.REGISTRY}}/${{ env.IMAGE_NAME }}:latest
