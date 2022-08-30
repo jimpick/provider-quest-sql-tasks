@@ -1,4 +1,4 @@
-name: provider-quest-sql-publisher
+name: provider-quest-sql-tasks
 
 on: [push]
 

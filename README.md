@@ -1,4 +1,4 @@
-provider-quest-sql-publisher
+provider-quest-sql-tasks
 ===
 
 Does the following:
