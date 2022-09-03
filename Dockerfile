@@ -13,5 +13,7 @@ COPY . .
 
 RUN chown -R ubuntu. /home/ubuntu
 
+USER ubuntu
+
 CMD ./load-data-and-process.sh 
 
