@@ -44,4 +44,13 @@ CREATE TABLE public.deals_daily (
 );
 ALTER TABLE public.deals_daily OWNER TO postgres;
 
-
+DROP TABLE IF EXISTS public.csp_regions_monthly;
+CREATE TABLE public.csp_regions_monthly (
+    year_month character varying(255),
+    location_date date,
+    location_epoch integer,
+    provider character varying(255),
+    region character varying(255),
+    num_regions integer
+);
+ALTER TABLE public.csp_regions_monthly OWNER TO postgres;
